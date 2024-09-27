@@ -270,9 +270,8 @@ nav ul li{
     .songnav{
         display: flex;
         flex-direction:row;
-        margin-left: 10%;
         width: 100vw;
-        font-size: 4.2vw;
+        font-size: 3.8vw;
     }
     .songItem img{
         width: 15%;
