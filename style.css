@@ -200,7 +200,7 @@ nav ul li{
      .all{
     display: flex;
     flex-wrap: wrap;
-    background-color: green;
+    background-color: red;
     flex-direction: column;
     justify-content: center;
     align-items: center;
