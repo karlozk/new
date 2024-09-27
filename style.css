@@ -195,6 +195,22 @@ nav ul li{
 }
 
 
-@media(max=600px){
-
+@media(max-width=700px){
+    .mainContainer{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        background-color: skyblue;
+        width: 95vw;
+        height: calc(100vh - 30vh - 10vh - 6vh);
+        margin: 3vh 2vw;
+        padding: 0;
+        position: relative;
+        align-items: 0;
+        border-radius: 0.5vw;
+        background-image: url(images/arjit1.jpg);
+        /* background-color: rgb(44, 96, 96); */
+        background-size: cover;
+        /* background-position: 100% 4%;  */
+    }
 }
