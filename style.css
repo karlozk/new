@@ -49,6 +49,9 @@ nav ul {
     align-items: center;
     padding: 1%;
 }
+nav ul a{
+  text-decoration:none;
+}
 nav ul li{
     font-size: 1.5vw;
     color: white;
@@ -273,7 +276,7 @@ nav ul li{
         flex-direction:row;
         width: 100vw;
         font-size: 3.8vw;
-        font-weight: 600;
+        font-weight: 400;
     }
     .songItem img{
         width: 15%;
@@ -286,7 +289,7 @@ nav ul li{
     /* margin-left: 2%; */
     width: 100%;
     font-size: 3.7vw;
-    justify-content: left;
+    justify-content: center;
     align-items: center;
     position: relative;
 }
