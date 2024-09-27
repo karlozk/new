@@ -228,6 +228,7 @@ nav ul li{
         font-size: 5.5vw;
         width: 100%;
         padding: 1%;
+        font-weight: 800;
     }
      .songItem{
         display: flex;
@@ -272,6 +273,7 @@ nav ul li{
         flex-direction:row;
         width: 100vw;
         font-size: 3.8vw;
+        font-weight: 600;
     }
     .songItem img{
         width: 15%;
