@@ -197,16 +197,6 @@ nav ul li{
 
 @media(max-width:600px){
 
-     .all{
-    display: flex;
-    flex-wrap: wrap;
-    background-color: red;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    position: relative;
- }
-
     .mainContainer{
         display: flex;
         flex-direction: column;
