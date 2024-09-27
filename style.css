@@ -229,6 +229,20 @@ nav ul li{
         width: 100%;
         padding: 1%;
     }
+     .songItem{
+        display: flex;
+        /* flex-direction: column; */
+        width: 90%;
+        height: 95%;
+        color: white;
+        overflow: hidden;
+        justify-content: space-evenly;
+        align-items: center;
+        padding: 1% 2%;
+        -ms-overflow-style: none;  /* IE and Edge */
+        scrollbar-width: none;  
+        position: relative;
+    }
     .footer{
         display: flex;
         flex-direction: column;
@@ -275,4 +289,5 @@ nav ul li{
     align-items: center;
     position: relative;
 }
+    
 }
