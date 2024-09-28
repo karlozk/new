@@ -200,8 +200,9 @@ nav ul li{
 #masterPlay:hover,
 #play:hover,
 #next:hover,
-#volume,
-#loop{
+#volume:hover,
+#loop:hover,
+#progressBar:hover{
     zoom: 102%;
     cursor: pointer;
 }
