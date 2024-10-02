@@ -166,6 +166,9 @@ nav ul li{
     align-items: center;
     color: white;
 }
+ #nav{
+        font-size: 1.3vw;
+    }
 #progressBar{
     width: 70%;
 }
@@ -287,6 +290,9 @@ nav ul li{
         width: 100vw;
         font-size: 3.8vw;
         font-weight: 400;
+    }
+     #nav{
+        font-size: 4.3vw;
     }
     .songItem img{
         width: 15%;
