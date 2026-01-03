@@ -1,0 +1,35 @@
+name: Music Player CI/CD
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v3
+
+    - name: Deploy to EC2
+      uses: appleboy/ssh-action@v0.1.7
+      with:
+        host: ${{ secrets.EC2_HOST }}
+        username: ec2-user
+        key: ${{ secrets.EC2_KEY }}
+        script: |
+          cd /home/ec2-user/new
+
+          git pull origin main
+
+          docker stop music-player || true
+          docker rm music-player || true
+
+          docker build -t music-player .
+
+          docker run -d \
+            --name music-player \
+            --restart unless-stopped \
+            -p 8080:80 \
+            music-player
+
