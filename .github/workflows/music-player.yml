@@ -24,6 +24,7 @@ jobs:
 
           docker stop music-player || true
           docker rm music-player || true
+          docker image prune -f || true
 
           docker build -t music-player .
 
