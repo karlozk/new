@@ -31,6 +31,6 @@ jobs:
           docker run -d \
             --name music-player \
             --restart unless-stopped \
-            -p 8080:80 \
+            -p 82:80 \
             music-player
 
